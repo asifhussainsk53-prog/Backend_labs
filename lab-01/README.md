@@ -119,11 +119,11 @@ http://localhost:3000/unknown
 
   **Time Route**
   
-![Time Route](./Screenshottime.png)
+![Time Route](./Screenshots/time.png)
 
   **404 Route**
   
-![404 Route](./Screenshot/error.png)
+![404 Route](./Screenshots/error.png)
 
 The application is deployed on Render and is available at [https://backend-labs-3.onrender.com/). Render installs dependencies with `npm install` and starts the application with `npm start`.
 
