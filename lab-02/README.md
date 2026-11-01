@@ -21,7 +21,9 @@
 
 This project connects an Express.js server to an SQLite database and provides HTTP routes to create, retrieve, update, and delete book records.
 
-**Live deployment:** [https://backend-labs-4-iu90.onrender.com/books]
+**Live deployment:** [https://backend-labs-lab-02.onrender.com/books](https://backend-labs-lab-02.onrender.com/books)
+
+Render deploys this project from the `lab-02` root directory using the repository's [`render.yaml`](../render.yaml) Blueprint configuration.
 
 ## Project Objective
 
