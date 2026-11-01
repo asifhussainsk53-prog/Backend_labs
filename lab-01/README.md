@@ -111,19 +111,19 @@ http://localhost:3000/unknown
 ## Screenshots
 **Home Route**
 
-![Home Route](./Screenshots/.png)
+![Home Route](./Screenshots/home.png)
 
   **About Route**
   
-![About Route](./Screenshot%202026-10-16%20113752.png)
+![About Route](./Screenshots/about.png)
 
   **Time Route**
   
-![Time Route](./Screenshot%202026-10-16%20113810.png)
+![Time Route](./Screenshottime.png)
 
   **404 Route**
   
-![404 Route](./Screenshot%202026-10-16%20113841.png)
+![404 Route](./Screenshot/error.png)
 
 The application is deployed on Render and is available at [https://backend-labs-3.onrender.com/). Render installs dependencies with `npm install` and starts the application with `npm start`.
 
