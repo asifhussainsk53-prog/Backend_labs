@@ -181,50 +181,67 @@ All requests are also saved in [`app.http`](./app.http).
 ## Screenshots
 
 ### Get all books
-![GET all books returning 200](screenshots/get-all-books.png)
+![GET all books returning 200](./Screenshots/Screenshot%202026-11-03%20155003.png)
 
-### Search and sort
-![Search by title and sort by price](screenshots/search-sort.png)
+### Search by title
+![Search by title](./Screenshots/Screenshot%202026-11-03%20155336.png)
+
+### Sort by price
+![Sort by price](./Screenshots/Screenshot%202026-11-03%20155346.png)
 
 ### Price range filter
-![Price range filter with min_price and max_price](screenshots/price-range.png)
+![Price range filter with min_price and max_price](./Screenshots/Screenshot%202026-11-03%20155355.png)
 
 ### Pagination
-![Pagination with limit and offset](screenshots/pagination.png)
+![Pagination with limit and offset](./Screenshots/Screenshot%202026-11-03%20155404.png)
 
 ### Get one book
-![GET one book by id](screenshots/get-book-by-id.png)
+![GET one book by id](./Screenshots/Screenshot%202026-11-03%20155413.png)
 
 ### Add a book (201)
-![POST a valid book returns 201](screenshots/add-book-201.png)
+![POST a valid book returns 201](./Screenshots/Screenshot%202026-11-03%20155459.png)
 
 ### Update a book (200)
-![PUT updates a book and returns 200](screenshots/update-book-200.png)
+![PUT updates a book and returns 200](./Screenshots/Screenshot%202026-11-03%20155510.png)
 
 ### Delete a book (200)
-![DELETE removes a book and returns 200](screenshots/delete-book-200.png)
+![DELETE removes a book and returns 200](./Screenshots/Screenshot%202026-11-03%20155540.png)
 
 ### Book not found (404)
-![Missing book returns 404](screenshots/not-found-404.png)
+![Missing book returns 404](./Screenshots/Screenshot%202026-11-03%20155550.png)
 
 ### Invalid id (400)
-![Invalid id returns 400](screenshots/invalid-id-400.png)
+![Invalid id returns 400](./Screenshots/Screenshot%202026-11-03%20155606.png)
 
 ### Invalid sort column (400)
-![Invalid order_by returns 400](screenshots/invalid-order-by-400.png)
+![Invalid order_by returns 400](./Screenshots/Screenshot%202026-11-03%20155628.png)
+
+### Invalid limit (400)
+![Invalid limit returns 400](./Screenshots/Screenshot%202026-11-03%20155641.png)
+
+### Invalid price range (400)
+![Invalid price range returns 400](./Screenshots/Screenshot%202026-11-03%20155651.png)
 
 ### Missing title (400)
-![POST without title returns 400](screenshots/missing-title-400.png)
+![POST without title returns 400](./Screenshots/Screenshot%202026-11-03%20155658.png)
 
 ### Non-numeric price (400)
-![POST with non-numeric price returns 400](screenshots/invalid-price-400.png)
+![POST with non-numeric price returns 400](./Screenshots/Screenshot%202026-11-03%20155711.png)
 
-### Database view
-![SQLite book table](screenshots/books-database.png)
+### Invalid JSON (400)
+![POST with broken JSON returns 400](./Screenshots/Screenshot%202026-11-03%20155737.png)
 
-### Port conflict error and fix
-![EADDRINUSE error](screenshots/port-conflict-error.png)
-![Server running after the fix](screenshots/port-conflict-fixed.png)
+### Book not found on update (404)
+![PUT for a missing book returns 404](./Screenshots/Screenshot%202026-11-03%20155754.png)
+
+### Book not found on delete (404)
+![DELETE for a missing book returns 404](./Screenshots/Screenshot%202026-11-03%20155811.png)
+
+### Route not found (404)
+![Missing route returns 404](./Screenshots/Screenshot%202026-11-03%20155817.png)
+
+### SQL injection attempt
+![SQL injection attempt returns no results](./Screenshots/Screenshot%202026-11-03%20155828.png)
 
 ## Debugging Exercise
 
